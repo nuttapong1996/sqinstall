@@ -5,22 +5,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- Latest compiled and minified JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <!--CSS DIY-->
         <link rel="stylesheet" href="css/checklist.css"> 
 <title>SQ Program Checklist</title>
 </head>
 <body>
     <div class="formcheck">
-        <div class="title"><h2>รายการติดตั้งโปรแกรม</h2></div>
-        <table class="table">
-            <tr>
-                <th>โปรแกรมเบื้องต้น</th>
-                <th>รายการ</th>
-            </tr>           
-        </table>
+        <div class="title">
+            <h2>รายการติดตั้งโปรแกรม</h2>
+        </div>
+            <div class="table-responsive-lg">
+                <table class="table table-bordered">
+                    <thead class="table-dark"><tr style="text-align: center;"><th colspan="3">โปรแกรมเบื้องต้น</th></tr></thead>
+                        <tr><td>1 . Microsoft Office</td><td><input type="checkbox"></td></tr>
+                        <tr><td>2 . Adobe DC / XI</td><td><input type="checkbox"></td></tr>
+                        <tr><td>3 . BitDefender</td><td><input type="checkbox"></td></tr>
+                        <tr><td>4 . Chrome</td><td><input type="checkbox"></td></tr>
+                        <tr><td>5 . PDF24</td><td><input type="checkbox"></td></tr>
+                        <tr><td>6 . 7Zip</td><td><input type="checkbox"></td></tr>
+                        <tr><td>7 . Line</td><td><input type="checkbox"></td></tr>
+                        <tr><td>8 . ACDSee Free</td><td><input type="checkbox"></td></tr>
+                        <tr><td>9 . VLC</td><td><input type="checkbox"></td></tr>
+                        <tr><td>10. Aimp</td><td><input type="checkbox"></td></tr>
+
+
+                    <thead class="table-dark"><tr style="text-align: center;"><th colspan="3">โปรแกรมเฉพาะทาง</th></tr></thead>
+                        <tr><td>1 . โปรแกรม HR</td><td><input type='checkbox'></td></tr>
+                        <tr><td>2 . โปรแกรม Line B</td><td><input type='checkbox'></td></tr>
+                        <tr><td>3 . โปรแกรม payroll</td><td><input type='checkbox'></td></tr>
+                        <tr><td>4 . โปรแกรม Phase8</td><td><input type='checkbox'></td></tr>
+                        <tr><td>5 . โปรแกรม RQ</td><td><input type='checkbox'></td></tr>
+                        <tr><td>6 . โปรแกรมคำนวณOT</td><td><input type='checkbox'></td></tr>
+                        <tr><td>7 . โปรแกรมเครื่องมือช่าง ToolsSQ</td><td><input type='checkbox'></td></tr>
+                        <tr><td>8 . โปรแกรมน้ำมัน_PH8</td><td><input type='checkbox'></td></tr>
+                        <tr><td>9 . โปรแกรมลาขาดของพนักงาน</td><td><input type='checkbox'></td></tr>
+
+                    <thead class="table-dark"><tr style="text-align: center;"><th colspan="3">Run time</th></tr></thead>
+                        <tr><td>1 . FAST.lib2000</td><td><input type='checkbox'></td></tr>
+                        <tr><td>2 . ODBC</td><td><input type='checkbox'></td></tr>
+                        <tr><td>3 . Active Report2.0</td><td><input type='checkbox'></td></tr>
+
+                    <thead class="table-dark"><tr style="text-align: center;"><th colspan="3">Personal</th></tr></thead>
+                        <tr><td>1 . Drive</td><td><input type='checkbox'></td></tr>
+                        <tr><td>2 . Email</td><td><input type='checkbox'></td></tr>
+                        <tr><td>3 . Internet </td><td><input type='checkbox'></td></tr>
+
+                    <thead class="table-dark"><tr style="text-align: center;"><th colspan="3">Printer</th></tr></thead>
+                        <tr><td>1 . MM</td><td><input type='checkbox'></td></tr>
+                        <tr><td>2 . PH8</td><td><input type='checkbox'></td></tr>
+                        <tr><td>3 . MM2</td><td><input type='checkbox'></td></tr>
+                        <tr><td>4 . Store</td><td><input type='checkbox'></td></tr>
+                    <thead class="table-dark"><tr style="text-align: center;"><th colspan="3">Printer</th></tr></thead>
+                        <tr><td>1 . Login sahakol</td><td><input type='checkbox'></td></tr>
+                        <tr><td>2 . ISO-SAHAKOL</td><td><input type='checkbox'></td></tr>
+                        <tr><td>3 . Cedar</td><td><input type='checkbox'></td></tr>
+                        <tr><td>4 . mail sahakol(new)</td><td><input type='checkbox'></td></tr>
+                        <tr><td>5 . Oracle (New)</td><td><input type='checkbox'></td></tr>       
+                </table>
+            </div>      
+            <button class="btn btn-danger" onclick="ToClear();">CLEAR</button>  
+        <div class="footer">
+            Copyright © All Right Reserved : IT-MMSQ
+            Nuttapong Thichuea
+            
+        </div>
     </div>
 </body>
+<script>
+    function ToClear(){
+        $('input[type="checkbox"]:checked').prop('checked',false)
+    }
+</script>
 </html>
